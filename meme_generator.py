@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-import urllib2                
-from bs4 import BeautifulSoup 
-import requests               
-import sys                    
+# THIS CODE BELONGS TO DUTA SOFTWARE and is Written by Santhosh Raj M
+
 import argparse              
 import cairo
 import pango
@@ -11,8 +9,6 @@ import sys
 import argparse
 import redis
 from random import randint
-from common import util
-from common import robots_txt
 
 db = redis.Redis()
 
@@ -60,17 +56,18 @@ def draw_text(surf, position, quote, channel, font_colour, filename):
     num_lines = layout.get_line_count()
 #    filename = '/duta/images/modiout{}.png'.format(file_number)
     key = 'independence_test'
-    count = int(db.get(key))
+    #count = int(db.get(key))
+    count = randint(0,1000)
     filename = '{}_{}'.format(count, filename)
-    db.set(key, str(count + 1))
+    #db.set(key, str(count + 1))
     with open(filename, "wb") as image_file:
         surf.write_to_png(image_file)
 
 #    util.send_image(db, channel, 'file://{}'.format(filename), quote.encode('utf-8'))
 
 if __name__ == '__main__':
-    filename = 'modi_left.png'
+    filename = 'YOUR FILE NAME.png'
     background_image = draw_background(filename)
     font_colour = [128, 0, 0]
-    draw_text(background_image, 'bottom', 'You are Gandhiji', 'cricket', font_colour, filename)
+    draw_text(background_image, 'bottom', 'ADD YOUR MEME HERE', 'cricket', font_colour, filename)
 #    draw_text(background_image, 'right', 'Hi User', 'cricket', font_colour, filename)
