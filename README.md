@@ -1,12 +1,5 @@
 # meme-generator
-Prime Minister Narendra modi memes
-
-Sample memes: https://github.com/santhoshraj2960/meme-generator/tree/master/generated_memes
-
-
-
-# Portal homepage that lists the different components used in the project
-![alt text](https://github.com/santhoshraj2960/adobe_databricks_prep/blob/main/screenshots/all_azure_resources_used.png)
+A python software that places text over image
 
 # Meme 1
 ![alt text](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_2.jpeg)
