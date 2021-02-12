@@ -1,5 +1,5 @@
 # meme-generator
-A python software that places text over image
+A python package that places text over image
 
 # Meme 1
 ![alt text](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_2.jpeg)
@@ -13,12 +13,13 @@ A python software that places text over image
 ![alt text](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_4.jpg)
 
 
-meme-generator is a python script than can generate memes. It takes as
-INPUT:
+meme-generator is a python script than can generate memes by placing given text over input image
+
+**INPUT:**
  1. An image whose filename should have suffix 'left' or 'right' or'bottom' depending on the position of the person in the image
  2. A meme that is to be placed over the image whose length should be less than 100 characters
 
-Output:
+**Output:**
  1. A modified image(with meme over the image).
  
  Requirements:
