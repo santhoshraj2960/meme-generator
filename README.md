@@ -4,15 +4,15 @@ Prime Minister Narendra modi memes
 Sample memes: https://github.com/santhoshraj2960/meme-generator/tree/master/generated_memes
 
 
-Meme 1
+**Meme 1**
 ![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_2.jpeg)
 
 
-Meme 2
+**Meme 2**
 ![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_right_3.png)
 
 
-Meme 3
+**Meme 3**
 ![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_4.jpg)
 
 
@@ -22,7 +22,7 @@ INPUT:
  2. A meme that is to be placed over the image whose length should be less than 100 characters
 
 Output:
- 1. A modified image(with meme placed over the top) with the same filname.
+ 1. A modified image(with meme over the image).
  
  Requirements:
  1) Python 2.7
