@@ -3,7 +3,18 @@ Prime Minister Narendra modi memes
 
 Sample memes: https://github.com/santhoshraj2960/meme-generator/tree/master/generated_memes
 
+
+Meme 1
 ![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_2.jpeg)
+
+
+Meme 2
+![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_right_3.png)
+
+
+Meme 3
+![Image of social media scheduler](https://github.com/santhoshraj2960/meme-generator/blob/master/generated_memes/modi_left_4.jpg)
+
 
 meme-generator is a python script than can generate memes. It takes as
 INPUT:
